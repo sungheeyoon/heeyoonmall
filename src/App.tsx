@@ -1,5 +1,14 @@
+import Header from "./Components/Header";
+
 function App() {
-  return <div className="bg-gray-200">hello my first TypeScript project</div>;
+  return (
+    <div>
+      <head>
+        <title>HeeyoonMall</title>
+      </head>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
