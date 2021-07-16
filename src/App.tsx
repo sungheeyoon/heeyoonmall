@@ -1,13 +1,14 @@
 import Header from "./Components/Header";
+import Home from "./Routes/Home";
 
 function App() {
   return (
-    <div>
-      <head>
-        <title>HeeyoonMall</title>
-      </head>
-      <Header />
-    </div>
+    <>
+      <div>
+        <Header />
+        <Home />
+      </div>
+    </>
   );
 }
 
